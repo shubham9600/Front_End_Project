@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/EoKzJAh.jpg);
+    background-size: cover;
+}
+.box {
+    border: 1px solid black;
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+
+}
+.box1 {
+    border: 1px solid black;
+
+    height: 50px;
+    text-align: center;
+
+}

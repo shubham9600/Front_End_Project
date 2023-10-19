@@ -1,0 +1,20 @@
+#s1{
+    border: 1px solid black;
+    color: white;
+
+}
+#s1:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+#sr{
+    border: 1px solid black;
+    margin-left: 900px;
+    background-color: gray;
+    color: white;
+    text-transform: capitalize;
+}
+#sr:hover{
+    background-color: black;
+    border: 1px solid white;
+}

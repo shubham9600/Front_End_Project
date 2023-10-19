@@ -1,0 +1,352 @@
+
+.topbar {
+   display: flex;
+
+}
+
+.c1 {
+   width: 10%;
+   margin-left: 10px;
+   text-align: center;
+
+}
+
+.c1,
+a,
+i,
+span {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: black;
+}
+
+.c2 {
+   width: 21%;
+   text-align: center;
+   margin-top: -5px;
+
+}
+
+#color {
+   color: green;
+
+}
+
+.c3,
+input {
+   width: 55%;
+   height: 25px;
+   margin-left: 10px;
+}
+
+.c5 {
+   margin-left: 725px;
+
+
+}
+
+.c5,
+button {
+   margin-top: -50px;
+   width: 25%;
+   height: 27px;
+   color: white;
+
+}
+
+.c4 {
+   margin-left: 820px;
+   margin-top: -25px;
+
+}
+
+.c6 {
+   margin-left: 980px;
+   margin-top: -20px;
+   font-size: 25px;
+}
+
+.c7 {
+   margin-left: 1020px;
+   margin-top: -20px;
+   font-size: 20px;
+
+}
+
+.nav {
+   border: 2px solid gray;
+   width: 100%;
+   height: 30px;
+
+}
+
+.v {
+   border-right: 2px solid gray;
+   width: 12%;
+   height: 21px;
+   padding: 5px;
+}
+
+.v1 {
+   text-decoration: none;
+
+}
+
+.v2 {
+   margin-left: 100px;
+   margin-top: -25px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+
+
+}
+
+.v2 li a {
+   text-decoration: none;
+}
+
+.v2 li :hover {
+   border-bottom: 2px solid gray;
+   font-size: 20px;
+}
+
+.b .i1 {
+   animation-name: fistimg;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   opacity: 0.0;
+
+
+}
+
+@keyframes fistimg {
+   to {
+      opacity: 0.9;
+   }
+}
+
+.b .i2 {
+   position: absolute;
+   top: 435px;
+   opacity: 0.0;
+   animation-name: img2;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-delay: 10s;
+}
+
+@keyframes img2 {
+   to {
+      opacity: 0.9;
+   }
+}
+
+.b .i3 {
+   position: absolute;
+   top: 435px;
+   opacity: 0.0;
+   animation-name: img3;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-delay: 20s;
+}
+
+@keyframes img3 {
+   to {
+      opacity: 0.9;
+   }
+}
+
+.b .i4 {
+   position: absolute;
+   top: 435px;
+   opacity: 0.0;
+   animation-name: img4;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-delay: 30s;
+}
+
+@keyframes img4 {
+   to {
+      opacity: 0.9;
+   }
+}
+
+.b .i5 {
+   position: absolute;
+   top: 435px;
+   opacity: 0.0;
+   animation-name: img5;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-delay: 40s;
+}
+
+@keyframes img5 {
+   to {
+      opacity: 0.9;
+   }
+}
+
+.product {
+   display: flex;
+   justify-content: space-around;
+}
+
+.product .product1 {
+   width: 20%;
+   height: 300px;
+   border: 2px solid gray;
+   padding: 5px;
+
+
+
+}
+
+.product .product1 button {
+   width: 100px;
+   background-color: green;
+   border: none;
+   padding: 5px;
+   margin-top: 13px;
+   margin-left: 2px;
+}
+
+.product .product2 {
+   width: 20%;
+   height: 300px;
+   border: 2px solid gray;
+   padding: 5px;
+
+
+
+
+}
+
+.product .product2 button {
+   width: 100px;
+   background-color: green;
+   border: none;
+   padding: 5px;
+   margin-top: 13px;
+   margin-left: 2px;
+}
+
+.product .product3 {
+   width: 20%;
+   height: 300px;
+   border: 2px solid gray;
+   padding: 5px;
+
+
+
+}
+
+.product .product3 button {
+   width: 100px;
+   background-color: green;
+   border: none;
+   padding: 5px;
+   margin-top: 13px;
+   margin-left: 2px;
+}
+
+.product .product4 {
+   width: 20%;
+   height: 300px;
+   border: 2px solid gray;
+   padding: 5px;
+
+
+
+}
+
+.product .product4 button {
+   width: 100px;
+   background-color: green;
+   border: none;
+   padding: 5px;
+   margin-top: 13px;
+   margin-left: 2px;
+}
+
+.lestnavbar {
+   border: 2px solid navy;
+   width: 100%;
+   height: 200px;
+   background-color: navy;
+
+}
+
+.lestnavbar .a1 {
+   margin-left: 50px;
+   margin-top: 50px;
+   color: white;
+
+
+}
+
+#imgk {
+   margin-bottom: 9px;
+}
+
+.lestnavbar .a2 {
+   margin-left: 450px;
+   margin-top: -100px;
+   color: white;
+}
+
+.lestnavbar .a2 ol a li {
+   list-style: none;
+
+   color: white;
+}
+
+.lestnavbar .a3 {
+   margin-left: 850px;
+   margin-top: -150px;
+   color: white;
+}
+
+.lestnavbar .a3 ol a li {
+   list-style: none;
+
+   color: white;
+}
+
+.from {
+   border: 2px solid white;
+   width: 40%;
+   height: 200px;
+  background-color: #7fffd4cf;
+   border-radius: 25px;
+   position: absolute;
+   top: 150px;
+   left: 300px;
+  
+  
+}
+
+.from .input {
+   margin-left: 50px;
+}
+@media screen and (max-width: 992px) {
+   
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .topbar{
+      display: none;
+   }
+   .nav{
+      display: flex;
+      flex-direction: column;
+   }
+
+ }
+ 
+
+

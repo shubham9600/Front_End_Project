@@ -1,0 +1,46 @@
+body {        
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-9-full.jpg);
+    background-size: cover;
+}
+
+img {
+    position: absolute;
+    left: 250px;
+    opacity: 0.5;
+}
+
+.c {
+    position: absolute;
+    bottom: 315px;
+    left: 50px;
+
+    font-size: 50px;
+    color: black;
+}
+
+h2::first-letter {
+    color: darkred;
+    font-size: 150px;
+
+}
+
+p {
+    position: absolute;
+    bottom: 25px;
+
+}
+
+p::first-line {
+
+    color: darkred;
+}
+
+.c1 {
+    position: absolute;
+    bottom: 150px;
+    text-transform: uppercase;
+}
+
+li:last-child {
+    color: red;
+}

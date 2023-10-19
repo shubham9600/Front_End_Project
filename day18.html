@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/1226302/pexels-photo-1226302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            opacity: 0.8;
+
+        }
+
+        form {
+            position: relative;
+            left: 200px;
+        }
+
+        h4 {
+
+            color: white;
+            margin: 0 0 15px;
+            text-transform: capitalize;
+        }
+
+        .c {
+            text-transform: capitalize;
+            display: inline-block;
+
+            padding-left: 8px;
+
+
+        }
+
+        fieldset {
+            width: 30%;
+            box-shadow: 0 0 10px 5px white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h4>application from</h4>
+            </legend>
+            <div class="c">
+
+                <label class="c" for=""><b> full name : </b></label>
+                <input type="text" placeholder=" enter your name" readonly value="shubham"> <br>
+                <br>
+                <label class="c" for=""><b> username:</b></label>
+                <input type="text" placeholder=" enter your username"><br>
+                <br>
+                <label for=""><b>fist name: </b></label>
+                <input type="text" placeholder=" enter your name"><br>
+                <br>
+                <label for=""><b>lastname :</b></label>
+                <input type="text" placeholder=" enter yourlastname "><br>
+                <br>
+                <label for=""><b>E-mail id :</b></label>
+                <input type="text" placeholder="Enter your e-mail id" required>
+                <br>
+                <br>
+                <label for=""><b>web design languages</b></label><br>
+                <input type="radio" name="java" value="html">HTML
+                <input type="radio" name="java" value="java">JAVA
+                <input type="radio" name="java" value="CSS">CSS
+                <br>
+                <br>
+                <input type="submit" id="1" placeholder="submit">
+                <input type="reset" id="2" placeholder="clean">
+            </div>
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>

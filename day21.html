@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Blurred-Web-Backgrounds-HD-Wallpaper.jpg);
+            background-size: cover;
+        }
+        table{
+            position: absolute;
+            right:100px;
+            top: 100px;
+        }
+
+        .c,
+        tr,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-size: 100px;
+            padding: 25px;
+            text-align: center;
+            color: black;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="c">
+        <tr>
+            <th>product id</th>
+            <th>product name</th>
+            <th>product quantity </th>
+            <th>product quality </th>
+            <th>product price</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>milk</td>
+            <td rowspan="2"> 1 liter</td>
+            <td rowspan="3">good</td>
+            <td>60 rs</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>oill</td>
+
+
+            <td>100 rs</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>butter</td>
+            <td>3 kg</td>
+
+            <td>450 rs</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>rice</td>
+            <td>5 kg</td>
+            <td>bad</td>
+            <td>600 rs</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>sugar</td>
+            <td>10 kg</td>
+            <td>good</td>
+            <td>6000 rs</td>
+        </tr>
+        <td colspan="4">total</td>
+        <td>7650 rs</td>
+    </table>
+
+</body>
+
+</html>

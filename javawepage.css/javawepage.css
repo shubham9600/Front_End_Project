@@ -1,0 +1,8 @@
+#s1 {
+    border: 1px solid black;
+    color: white;
+}
+#s1:hover {
+    background-color: black;
+    border: 2px solid white;
+}
